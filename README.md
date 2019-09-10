@@ -1,3 +1,5 @@
 # python-notlar-
 
-|Bilgi|Açıklama|
+| Bilgi | Açıklama |
+| --- | --- |
+| Test 1 | Test 2 |
