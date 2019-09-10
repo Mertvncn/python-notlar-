@@ -2,4 +2,24 @@
 
 | Bilgi | Açıklama |
 | --- | --- |
-| Test 1 | Test 2 |
+| type() : | Öğenin tipini denetlemeyi sağlar |
+| type() : | Öğenin tipini denetlemeyi sağlar |
+| type() : | Öğenin tipini denetlemeyi sağlar |
+| type() : | Öğenin tipini denetlemeyi sağlar |
+| type() : | Öğenin tipini denetlemeyi sağlar |
+| type() : | Öğenin tipini denetlemeyi sağlar |
+| type() : | Öğenin tipini denetlemeyi sağlar |
+| type() : | Öğenin tipini denetlemeyi sağlar |
+| type() : | Öğenin tipini denetlemeyi sağlar |
+| type() : | Öğenin tipini denetlemeyi sağlar |
+| type() : | Öğenin tipini denetlemeyi sağlar |
+| type() : | Öğenin tipini denetlemeyi sağlar |
+| type() : | Öğenin tipini denetlemeyi sağlar |
+| type() : | Öğenin tipini denetlemeyi sağlar |
+| type() : | Öğenin tipini denetlemeyi sağlar |
+| type() : | Öğenin tipini denetlemeyi sağlar |
+| type() : | Öğenin tipini denetlemeyi sağlar |
+| type() : | Öğenin tipini denetlemeyi sağlar |
+| type() : | Öğenin tipini denetlemeyi sağlar |
+| type() : | Öğenin tipini denetlemeyi sağlar |
+
