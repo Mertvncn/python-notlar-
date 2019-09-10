@@ -37,7 +37,16 @@
 | is : | İki veriyi id numaralarına göre karşılaştırır |
 | == : | İki veriyi içeriğine göre karşılaştırır |
 | import sys;sys.version_info : | Bilgisayardaki python versiyonu hakkında bilgi verir |
-
+| range() : | Belli bir aralıkta sayı listelemizi sağlar, direkt yazdırılamaz |
+| pass : | Döngü ve fonksiyon içerisini işlem yapmadan geçmemizi sağlar |
+| break : | Döngüyü koşulsuz sonlandırır |
+| continue : | Koşulsuz döngünün başına geçer |
+| raise : | Hata fırlatmayı sağlar, kullanımı raise TypeError("Hata metni"), ayrıca expect bloğu içerisine raise ekleyerek normal hata mesajına kendimiz birşeyler ekleyebiliriz |
+| reversed() : | Karakter dizisini ters çevirir ancak direkt kullanılmaz |
+| sorted() : | İçine verilen öğeyi alfabetik veya numerik sıralar |
+| dir() : | İçine verilen veri tipine ait tüm metotları gösteir |
+| enumerate() : | İçine verilen veriyi parçalara ayırarak her birini numaralandırır , ikinci parametresine numaralandırmanın hangi sayıdan başlayacağını belirtebiliriz |
+| help() : | İçine verilen metot, fonksiyon veya obje hakkında bilgi verir |
 
 
 
