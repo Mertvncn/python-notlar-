@@ -1,1 +1,3 @@
 # python-notlar-
+
+|Bilgi|Açıklama|
