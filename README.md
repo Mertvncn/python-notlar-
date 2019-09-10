@@ -1,4 +1,4 @@
-# python-notlari
+# python-notlar
 
 | Bilgi | Açıklama |
 | --- | --- |
