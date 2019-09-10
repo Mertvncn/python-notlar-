@@ -47,6 +47,50 @@
 | dir() : | İçine verilen veri tipine ait tüm metotları gösteir |
 | enumerate() : | İçine verilen veriyi parçalara ayırarak her birini numaralandırır , ikinci parametresine numaralandırmanın hangi sayıdan başlayacağını belirtebiliriz |
 | help() : | İçine verilen metot, fonksiyon veya obje hakkında bilgi verir |
+| replace() : | String içindeki bir karakteri değiştirmeyi sağlar |
+| split() : | String içinde belli ölçütlere göre bölme yapmayı sağlar |
+| rsplit() : | split() işleminin sağa göre işleyeni |
+| splitlines() : | Metin içindeki her bir satırı bölmemizi sağlar |
+| lower() : | Metin içindeki tüm harfleri küçültür |
+| upper() : | Metin içindeki tüm harfleri büyültür, ancak iki metot türkçe karakterlerde sorun yaşar |
+| isupper() : | String içerisindeki tüm harfler büyük ise True döner, değilse False döner |
+| islower() : | String içerisindeki tüm harfler küçük ise True döner, değilse False döner |
+| endswith() : | String'in metot içerisinde belirtilen String ile bitip bitmediğini sorgular |
+| startswith() : | String'in metot içerisinde belirtilen String ile başlayıp başlamadığını sorgular |
+| capitalize() : | String'in sadece ilk harfini büyük yapar |
+| title() : | String içindeki kelimelerin ilk harflerini büyük yapar |
+| swapcase() : | String içindek büyük harfleri küçük yaparken küçükleri de büyük hale getirir |
+| casefold() : | lower() metotuyla aynı işlevi görür |
+| strip() : | String'in başında ve sonunda istenmeyen karakterleri temizler |
+| lstrip() : | String'in başındaki istenmeyen karakterleri siler |
+| rstrip() : | String'in sonundaki istenmeyen karakterleri siler |
+| join() : | Liste veri tipini String'e çevirir, kullanımı "".join(<liste>) |
+| count() : | Bir String içerisinde belli bir karakterin kaç kere geçtiğini gösterir |
+| index() : | String içinde aradığımız karakterin index numarasını döner, karakter yoksa ValueError verir |
+| rindex() : | index() metotunun yaptığını sağdan sola olacak şekilde yapar |
+| find() : | String içerisinde aranan karakterin index numarasını döner, kelime bulunamazsa -1 döner |
+| rfind() : | find() metotunun yaptığını sağdan sola index alacak şekilde döner |
+| center() : | İçerisine verilen parametre Stringin karakter sayısını aştığı zaman o karakteri ortalamaya yarar |
+| ljust() : | String'i sola hizalar, parametre String'in karakter sayısından uzun olmalı |
+| rjust() : | String'i sağa hizalar, parametre String'in karakter sayısından uzun olmalı |
+| zfill() : | String'lerin soluna istediğimiz ölçütte 0 yerleştirmemizi sağlar |
+| partition() : | Bu metot ile String'leri belli bir ölçüte göre üçe bölebiliriz |
+| rpartition() : | partition() metotunun sağdan sola referans alarak işlenen hali |
+| encode() : | Bu metot ile Stringleri istediğimiz kodlama sistemine göre kodlayabiliriz |
+| expandtabs() : | Bu metot ile String içerisindeki tab boşluklarını genişletebiliriz |
+| str.maketrans();translate() : | İkisi de String içerisinde istediğimiz karakterleri başka karakterler ile değiştirmemizi sağlar, kullanımı <çeviri_tablosu> = str.maketrans(<kaynak>,<hedef>) |
+| isalpha() : | String'in sadece alfabetik karakterlerden oluşup oluşmadığını kontrol eder |
+| isdigit() : | String'in sadece rakamlı karakterlerden oluşup oluşmadığını kontrol eder  |
+| isalnum() : | String'in hem alfabetik hem rakamlı karakterlerden oluşup oluşmadığını kontrol eder |
+| isdecimal() : | String içerisindeki sayının ondalık olup olmadığına bakar |
+| isidentifier() : | String içerisindeki ifadenin tanımlayıcı olup olamayacağını kontrol eder |
+| isnumeric() : | String'in nümerik tipten oluşup oluşmadığını kontrol eder |
+| isspace() : | String'in sadece boşluktan oluşup oluşmadığını kontrol eder |
+| isprintable() : | String'in basılabilir bir değer olup olmadığına bakar, örn. sadece kaçış karakterlerinden oluşan bir String printable değildir |
+
+
+
+
 
 
 
