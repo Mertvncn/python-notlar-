@@ -3,7 +3,7 @@
 | Bilgi | Açıklama |
 | --- | --- |
 | type() : | Öğenin tipini denetlemeyi sağlar |
-| len() : | Öğrenin uzunluğunu döndürür |
+| len() : | Öğenin uzunluğunu döndürür |
 | pow() : | İlk parametre asıl sayıyı, ikincisi alınmak istenen üssü belirtir |
 | _ : | Shell içinde son kullanılan öğenin yerini alır |
 | import keyword;keyword.kwlist : | Python içindeki tüm özel ifadeler |
