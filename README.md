@@ -87,6 +87,23 @@
 | isnumeric() : | String'in nümerik tipten oluşup oluşmadığını kontrol eder |
 | isspace() : | String'in sadece boşluktan oluşup oluşmadığını kontrol eder |
 | isprintable() : | String'in basılabilir bir değer olup olmadığına bakar, örn. sadece kaçış karakterlerinden oluşan bir String printable değildir |
+| "{:>15}".format("") : | Format metotu ile sağa hizalama yapmayı sağlar |
+| "{:<15}".format("") : | Format metotu ile sola hizalama yapmayı sağlar |
+| "{:^15}".format("") : | Format metotu ile ortaya hizalama yapar |
+| "{:.2f}".format(50) : | Format metotu ile virgülden sonra koymak istediğimiz rakam sayısını belirleriz |
+|  print(*liste) : | Liste görünümü dışında tüm öğeler sırayla gösterilir |
+| append() : | Metot içine verilen öğeyi listenin sonuna ekler |
+| extend() : | Metot içine verilen öğeyi listenin sonuna ekler, append() ile benzer ancak birden çok eleman ekleyebiliyor |
+| insert() : | Belirli bir index'e öğe yerleştirebilmemizi sağlar, ilk parametre index ikincisi öğe olacak şekilde |
+| remove() : | Listeden belirli bir elemanı silmeye yarar |
+| pop() : | Listeden öğe silmeye yarar, silinen öğeyi ekrana basar, parametresiz çağrılırsa listenin sonundaki elemanı siler |
+| sort() : | Liste içinde alfabetik ve numerik sıralama yapar |
+| sort(reversed=True) : | Liste içinde tersten alfabetik ya da numerik sıralama yapar |
+| index() : | İçine verilen öğenin liste içerisindeki index numarasını döner |
+| count() : | İçine verilen veri tipinin listede kaç kere geçtiğini gösterir |
+| copy() : | Bir listenin elemanlarını başka bir listeye kopyalamayı sağlar |
+| clear() : | Listenin içini boşaltır ancak ortadan kaldırmaz, del <liste> şeklinde listeyi programdan kalıcı silebiliriz |
+
 
 
 
