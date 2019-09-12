@@ -103,6 +103,21 @@
 | count() : | İçine verilen veri tipinin listede kaç kere geçtiğini gösterir |
 | copy() : | Bir listenin elemanlarını başka bir listeye kopyalamayı sağlar |
 | clear() : | Listenin içini boşaltır ancak ortadan kaldırmaz, del <liste> şeklinde listeyi programdan kalıcı silebiliriz |
+| bin() : | İçerisine verilen sayının ikilik sayma sistemindeki karşılığını verir, başındaki 0b o sayının ikilik sistemde olduğunu belirtir |
+| hex() : | İçine verilen sayının onaltılık sayma sistemindeki karşılığını verir, başındaki 0x onun onaltılık sistemde olduğunu belirtir |
+| oct() : | İçindeki sayıyı sekizli sistemde gösterir başında 0o vardır |
+| int(<sayı>,<sayı_sistemi> | İkinci parametrede belirtilen sayı sisteminde olan sayıyı onluk tabana dönüştürür |
+| <sayı>.bitlength() : | İçine verilen integer sayının kaç bit olduğunu gösterir |
+| <float>.as_integer_radio() : | BU metot birbirine bölündüğünde yazılan float değeri veren iki tam sayı döner |
+| <float>.is_integer() : | Verilen float değerin ondalık kısmında 0 harici bir sayı olup olmadığını kontrol etmemizi sağlar |
+| <complex>.imag : | Karmaşık sayının sanal kısmını verir |
+| <complex>.real : | Karmaşık sayının gerçek kısmını verir |
+| abs() : | İçine verilen sayının mutlak değerini verir |
+| divmod() : | Bir sayının diğer sayıya bölünmesi sonucu oluşan bölümü ve kalanı gösterir |
+| max() : | İçine verilen sayılardan en büyüğünü verir |
+| max(<str_list> , key= len) | String'lerden oluşan listenin en uzun elemanını verir |
+| min() : | İçine verilen değerlerden en küçüğünü verir |
+| sum() : | Bir dizi içinde yer alan tüm sayıları toplamaya yarar |
 
 
 
