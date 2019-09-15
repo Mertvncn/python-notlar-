@@ -118,6 +118,20 @@
 | max(<str_list> , key= len) | String'lerden oluşan listenin en uzun elemanını verir |
 | min() : | İçine verilen değerlerden en küçüğünü verir |
 | sum() : | Bir dizi içinde yer alan tüm sayıları toplamaya yarar |
+| open(<dosya_adı> ,"w") : | Yazma kipinde boş dosya oluşturmamızı sağlar |
+| dosya.write() : | Dosyaya imlecin bulunduğu noktadan yazı eklememizi sağlar |
+| dosya.read() : | Tek seferde dosyanın tamamını okur |
+| dosya.readlines() : | Tüm satırları teker teker okuyarak bir liste haline getirir |
+| dosya.readline() : | Metotu her çağırdığımızda metnin bir satırını okur ve imleci orda bırakır |
+| dosya.seek() : | Dosya imlecini belirttiğimiz bayt konumuna götürür |
+| dosya.tell() : | Dosya imlecinin hangi bayt konumunda olduğunu gösterir  |
+| dosya.closed() : | Dosyanın kapalı olup olmadığını sorgular |
+| dosya.readable() : | Dosyanın okuma kipinde açılıp açılmadığını sorgular |
+| dosya.writable() : | Dosyanın yazma kipinde açılıp açılmadığını sorgular |
+| dosya.truncate() : | Dosyayı biçimlendirir, verilen dosyayı belirtilen bayt boyutuna sokar |
+| dosya.mode : | Dosyanın hangi kipte açıldığını gösterir |
+| dosya.name : | Dosyanın adını verir |
+| dosya.encoding : | Dosyanın karakter kodlama sistemini gösterir |
 
 
 
